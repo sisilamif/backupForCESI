@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="FilesCopy">
+      <HintPath>..\..\FilesCopy\FilesCopy\bin\Release\net6.0\FilesCopy.dll</HintPath>
+    </Reference>
+    <Reference Include="LogsEntry">
+      <HintPath>..\..\FilesCopy\FilesCopy\bin\Release\net6.0\LogsEntry.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
