@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CreateBackup">
+      <HintPath>..\..\CreateBackup\CreateBackup\bin\Release\net6.0\CreateBackup.dll</HintPath>
+    </Reference>
+    <Reference Include="FilesCopy">
+      <HintPath>..\..\CreateBackup\CreateBackup\bin\Release\net6.0\FilesCopy.dll</HintPath>
+    </Reference>
+    <Reference Include="LogsEntry">
+      <HintPath>..\..\CreateBackup\CreateBackup\bin\Release\net6.0\LogsEntry.dll</HintPath>
+    </Reference>
+	  <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
